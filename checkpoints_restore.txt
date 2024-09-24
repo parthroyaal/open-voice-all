@@ -1,0 +1,3 @@
+cat checkpoints_part_* > checkpoints_restored.tar.gz
+gunzip checkpoints_restored.tar.gz
+tar -xvf checkpoints_restored.tar
